@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aladin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="inedx.css">
+    <script defer src="/index.js"></script>
+    <title>Text Editor</title>
+</head>
+
+<body>
+    <main>
+        <div class="select-box">
+            <div class="icon-box_">
+                <i class="pen_ fa-solid fa-pen icon-btn"></i>
+            </div>
+            <div class="select-sec">
+                <div class="icon-box">
+                    <i class="fa-brands fa-html5 icon-btn"></i>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-brands fa-css3-alt icon-btn"></i>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-brands fa-js icon-btn"></i>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                </div>
+            </div>
+        </div>
+        <div class="html-sec">
+            <div class="input-box">
+                <textarea name="" id="html-code" placeholder="Type HTML code . . ."></textarea>
+            </div>
+        </div>
+        <div class="css-sec">
+            <div class="input-box hidde-input-box">
+                <textarea name="" id="css-code" placeholder="Type CSS code . . ."></textarea>
+            </div>
+        </div>
+        <div class="js-sec">
+            <div class="input-box hidde-input-box">
+                <textarea name="" id="js-code" placeholder="Type JS code . . ."></textarea>
+            </div>
+        </div>
+        <div class="output-sec">
+            <div class="output-box input-box hidde-input-box">
+                <iframe id="output"></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
